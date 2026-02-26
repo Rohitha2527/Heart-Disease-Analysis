@@ -54,6 +54,18 @@ The dashboard is deployed as a web application using Flask and hosted on Render.
 
 - Each visualization contributes to a structured analytical narrative.
 
+ ## 📖 Story-Based Dashboard Flow
+
+The dashboard is designed as a visual analytical journey, guiding the viewer step-by-step:
+
+1. 📊 Demographic overview of patients  
+2. 📈 Health parameter distribution analysis  
+3. 🔍 Comparative visualization  
+4. ❤️ Target group comparison  
+5. 📌 Summary of visual insights  
+
+This structured storytelling approach enhances clarity and improves data interpretation.
+
 ## 🌐 Live Application
 
 🔗 https://heart-disease-analysis-wzgn.onrender.com
