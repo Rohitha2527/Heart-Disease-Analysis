@@ -27,7 +27,7 @@ The dashboard is deployed as a web application using Flask and hosted on Render.
 
 - Seaborn
 
--Flask
+- Flask
 
 - HTML / CSS
 
@@ -51,7 +51,7 @@ The dashboard is deployed as a web application using Flask and hosted on Render.
 
 - Visual comparison between heart disease affected and non-affected groups
 
--Each visualization contributes to a structured analytical narrative.
+- Each visualization contributes to a structured analytical narrative.
 
 🌐 Live Application
 
