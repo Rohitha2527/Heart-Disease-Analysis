@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact | Heart Disease Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+
+<header>
+    <div class="header-container">
+        <h1>Welcome</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/dashboard">Dashboard</a>
+            <a href="/story">Story</a>
+            <a href="/team">Team</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<section class="contact-wrapper">
+
+   <div class="contact-container">
+    <h2>Contact Us</h2>
+
+    <p class="contact-subtext">
+        Contact us to explore insights and findings from this analysis.
+    </p>
+
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</div>
+
+
+    <!-- RIGHT: HEART IMAGE -->
+    <div class="contact-image">
+        <img src="{{ url_for('static', filename='Heart1.jpg') }}" 
+        alt="Heart Disease Illustration">
+    </div>
+  
+
+
+</section>
+
+<footer>
+    © 2026 Heart Disease Analysis
+</footer>
+
+</body>
+</html>
+
+
+

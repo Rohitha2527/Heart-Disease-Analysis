@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home | Heart Disease Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <h1>Welcome</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/dashboard">Dashboard</a>
+            <a href="/story">Story</a>
+            <a href="/team">Team</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="about-section">
+        <div class="about-text">
+           <h2 style="margin-left:-150px;">Heart Disease Analysis</h2>
+
+            <p style="font-size: 17px; line-height: 1.6; max-width: 415px;">
+    A data-driven system for analyzing heart disease
+    patterns using advanced analytics and visualization.
+</p>
+
+            <a href="/about" class="btn" style="margin-left:-150px;">Get Started</a>
+        </div>
+
+        <div class="about-image">
+            <img src="{{ url_for('static', filename='heart_disease.png') }}"
+                 alt="Heart Disease Analysis">
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    © 2026 Heart Disease Analysis
+</footer>
+
+</body>
+</html>
+
+

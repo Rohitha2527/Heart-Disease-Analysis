@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heart Disease Story</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <h1>Welcome</h1>
+        <nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/dashboard">Dashboard</a>
+    <a href="/story">Story</a>
+    <a href="/team">Team</a>
+    <a href="/contact">Contact</a>
+</nav>
+
+    </div>
+</header>
+
+<div class="container">
+    <h2 class="page-title">Heart Disease Story</h2>
+<p>
+    Interactive storytelling that presents heart disease insights,
+    trends, and patterns through visual narratives.
+</p>
+  <div class="tableau-box">
+    <iframe src="https://public.tableau.com/views/HeartDiseaseAnalysis_17704565473810/HeartDiseaseStory1?:embed=true&:showVizHome=no"></iframe>
+</div>
+
+<div class="tableau-box">
+    <iframe src="https://public.tableau.com/views/HeartDiseaseAnalysis_17704565473810/HeartDiseaseStory2?:embed=true&:showVizHome=no"></iframe>
+</div>
+
+
+</div>
+
+<footer>
+    © 2026 Heart Disease Analysis
+</footer>
+
+</body>
+</html>
+
+
+    

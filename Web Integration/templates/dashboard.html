@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <h1>Welcome</h1>
+       <nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/dashboard">Dashboard</a>
+    <a href="/story">Story</a>
+    <a href="/team">Team</a>
+    <a href="/contact">Contact</a>
+</nav>
+
+    </div>
+</header>
+
+
+<div class="container">
+    <h2>Heart Disease Dashboard</h2>
+    <p>Interactive visualization of heart disease patterns.</p>
+
+    <div class="tableau-box">
+        <iframe
+            src="https://public.tableau.com/views/HeartDiseaseAnalysis_17704565473810/HeartDiseaseAnalysisDashboard?:embed=true&:showVizHome=no">
+        </iframe>
+        <iframe
+            src="https://public.tableau.com/views/HeartDiseaseAnalysis_17704565473810/HeartDiseaseAnalysisDashboard2?:embed=true&:showVizHome=no">
+        </iframe>
+    </div>
+</div>
+
+<footer>
+    © 2026 Heart Disease Analysis
+</footer>
+
+</body>
+</html>
+
+        
