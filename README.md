@@ -1,59 +1,58 @@
 ❤️ Heart Disease Data Visualization Dashboard
 📌 Project Overview
 
-This project presents a story-driven data visualization dashboard built using a heart disease dataset.
+This project presents a story-driven data visualization dashboard built on a heart disease dataset.
 
-The primary focus is on visual exploration and insight presentation, transforming raw medical data into clear graphical representations that highlight trends, comparisons, and patterns.
+The focus is purely on visual exploration and insight communication, transforming raw medical data into meaningful graphical representations that highlight trends, comparisons, and patterns.
 
 The dashboard is deployed as a web application using Flask and hosted on Render.
 
-🎯 Project Goals
+🎯 Project Goal
 
-📊 Visualize cardiovascular health data effectively
+-Visualize cardiovascular health data effectively
 
-📖 Build a structured analytical story using charts
+-Create a structured story flow using charts
 
-🔍 Highlight key patterns through graphical comparison
+-Highlight key patterns through graphical comparison
 
-🌐 Deploy the visualization dashboard for online access
+-Deploy the visualization dashboard for online access
 
 🛠 Technologies Used
 
-🐍 Python
+-Python
 
-📊 Pandas
+-Pandas
 
-📈 Matplotlib
+-Matplotlib
 
-🎨 Seaborn
+-Seaborn
 
-🌐 Flask
+-Flask
 
-💻 HTML / CSS
+-HTML / CSS
 
-🚀 Gunicorn
+-Gunicorn
 
-☁️ Render
+-Render
 
 📊 Dashboard Highlights
 
-The dashboard includes visual analysis of:
+-The dashboard includes visual analysis of:
 
-Age distribution of patients
+-Age distribution of patients
 
-Cholesterol level comparison
+-Cholesterol level comparison
 
-Resting blood pressure trends
+-Resting blood pressure patterns
 
-Maximum heart rate variations
+-Maximum heart rate variations
 
 Target variable distribution
 
-Comparative analysis between heart disease affected and non-affected groups
+-Visual comparison between heart disease affected and non-affected groups
 
-Each visualization contributes to a clear analytical narrative, making the data easy to interpret.
+-Each visualization contributes to a structured analytical narrative.
 
 🌐 Live Application
 
-🔗 View the Dashboard Online:
-https://heart-disease-analysis-wzgn.onrender.com
+🔗 https://heart-disease-analysis-wzgn.onrender.com
