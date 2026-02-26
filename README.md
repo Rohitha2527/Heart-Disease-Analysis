@@ -1,39 +1,39 @@
 ❤️ Heart Disease Data Visualization Dashboard
 📌 Project Overview
 
-This project presents a story-driven data visualization dashboard built on a heart disease dataset.
+This project presents a story-driven data visualization dashboard built using a heart disease dataset.
 
-The focus is purely on visual exploration and insight communication, transforming raw medical data into meaningful graphical representations that highlight trends, comparisons, and patterns.
+The primary focus is on visual exploration and insight presentation, transforming raw medical data into clear graphical representations that highlight trends, comparisons, and patterns.
 
 The dashboard is deployed as a web application using Flask and hosted on Render.
 
-🎯 Project Goal
+🎯 Project Goals
 
-Visualize cardiovascular health data effectively
+📊 Visualize cardiovascular health data effectively
 
-Create a structured story flow using charts
+📖 Build a structured analytical story using charts
 
-Highlight key patterns through graphical comparison
+🔍 Highlight key patterns through graphical comparison
 
-Deploy the visualization dashboard for online access
+🌐 Deploy the visualization dashboard for online access
 
 🛠 Technologies Used
 
-Python
+🐍 Python
 
-Pandas
+📊 Pandas
 
-Matplotlib
+📈 Matplotlib
 
-Seaborn
+🎨 Seaborn
 
-Flask
+🌐 Flask
 
-HTML / CSS
+💻 HTML / CSS
 
-Gunicorn
+🚀 Gunicorn
 
-Render
+☁️ Render
 
 📊 Dashboard Highlights
 
@@ -43,16 +43,17 @@ Age distribution of patients
 
 Cholesterol level comparison
 
-Resting blood pressure patterns
+Resting blood pressure trends
 
 Maximum heart rate variations
 
 Target variable distribution
 
-Visual comparison between heart disease affected and non-affected groups
+Comparative analysis between heart disease affected and non-affected groups
 
-Each visualization contributes to a structured analytical narrative.
+Each visualization contributes to a clear analytical narrative, making the data easy to interpret.
 
 🌐 Live Application
 
-🔗 https://heart-disease-analysis-wzgn.onrender.com
+🔗 View the Dashboard Online:
+https://heart-disease-analysis-wzgn.onrender.com
