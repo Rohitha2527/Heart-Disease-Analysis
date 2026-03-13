@@ -338,12 +338,10 @@ main p {
 }
 
 
-    /* ================== RISK PREDICTION PAGE ================== */
+/* ================== RISK PREDICTION PAGE ================== */
 
-/* Use same layout as contact page */
 .risk-container {
     max-width: 760px;
-    width: 150%;
     margin: 60px auto;
     background: #ffffff;
     padding: 40px 60px;
@@ -364,85 +362,58 @@ main p {
     margin-bottom: 30px;
 }
 
-/* Form layout */
-.risk-form {
-    display: flex;
-    flex-direction: column;
-}
-
-.risk-form input,
-.risk-form select {
-    margin-bottom: 18px;
-    padding: 14px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    font-size: 15px;
-    background: #f9fafb;
-}
-
-/* Button */
-.risk-form button {
-    align-self: center;
-    width: 180px;
-}
-
-/* Result Box */
-.result-box {
-    margin-top: 25px;
-    padding: 15px;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 600;
-    background: #e3f2fd;
-    border-left: 5px solid #2c5364;
-}
-
-/* Risk Color Indicators */
-
-.low-risk {
-    background: #e8f5e9;
-    border-left: 6px solid #2e7d32;
-    color: #2e7d32;
-}
-
-.moderate-risk {
-    background: #fff8e1;
-    border-left: 6px solid #f9a825;
-    color: #f9a825;
-}
-
-.high-risk {
-    background: #ffebee;
-    border-left: 6px solid #c62828;
-    color: #c62828;
-}
-/* ================= RISK FORM FIX ================= */
+/* FORM */
 
 .risk-form{
-    display:block;
     width:100%;
 }
 
-/* each field takes full row */
+/* INPUT FIELDS */
 
 .risk-form input,
 .risk-form select{
-    display:block;
     width:100%;
     padding:14px;
-    margin-bottom:20px;
-    border-radius:10px;
+    margin-bottom:18px;
+    border-radius:8px;
     border:1px solid #ccc;
-    font-size:16px;
+    font-size:15px;
 }
 
-/* button center */
+/* BUTTON */
 
-.risk-btn{
+.risk-form button{
     display:block;
-    margin:25px auto;
+    margin:20px auto;
     width:180px;
+}
+
+/* RESULT BOX */
+
+.result-box{
+    margin-top:25px;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+    font-size:18px;
+    font-weight:600;
+}
+
+/* RISK COLORS */
+
+.low-risk{
+    background:#e8f5e9;
+    color:#2e7d32;
+}
+
+.moderate-risk{
+    background:#fff8e1;
+    color:#f9a825;
+}
+
+.high-risk{
+    background:#ffebee;
+    color:#c62828;
 }
 /* ================== FOOTER ================== */
 footer {
