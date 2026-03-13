@@ -86,9 +86,9 @@ def calculate_risk():
     if risk_score >= 6:
         result = "High Risk of Heart Disease"
     elif risk_score >= 3:
-        result = "Moderate Risk"
+        result = "Moderate Risk of Heart Disease"
     else:
-        result = "Low Risk"
+        result = "Low Risk of Heart Disease"
 
     return render_template("risk.html", prediction=result)
 
@@ -96,7 +96,8 @@ def calculate_risk():
 # Run Server
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
+    app.run(host="0.0.0.0", port=port, debug=True)
+
 
 
 
