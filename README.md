@@ -39,24 +39,6 @@ The dashboard is developed using Flask and deployed online using Render.
 
 - Render
 
-📊 **Dashboard Highlights**
-
-The dashboard includes visual analysis of:
-
-- Age distribution of patients
-
-- Cholesterol level comparison
-
-- Resting blood pressure patterns
-
-- Maximum heart rate variations
-
-- Target variable distribution
-
-Visual comparison between heart disease affected and non-affected groups
-
-Each visualization contributes to a structured analytical narrative.
-
 🧠 **Risk Prediction Feature**
 
 The application includes a Heart Disease Risk Prediction tool where users can enter health parameters such as:
@@ -80,6 +62,24 @@ Based on these inputs, the system estimates the risk level as:
 - **Moderate Risk**
 
 - **High Risk**
+
+📊 **Dashboard Highlights**
+
+The dashboard includes visual analysis of:
+
+- Age distribution of patients
+
+- Cholesterol level comparison
+
+- Resting blood pressure patterns
+
+- Maximum heart rate variations
+
+- Target variable distribution
+
+Visual comparison between heart disease affected and non-affected groups
+
+Each visualization contributes to a structured analytical narrative.
 
 📖 **Story-Based Dashboard Flow**
 
